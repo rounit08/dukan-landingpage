@@ -1,0 +1,72 @@
+.overviewBottom {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  margin: 10px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lobster&display=swap");
+
+.tile1 {
+  height: 118px;
+  width: 566px;
+  background-color: #fff;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+}
+
+.tile2 {
+  height: 118px;
+  width: 566px;
+  background-color: #fff;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+}
+
+.tile1 p:nth-child(1) {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(77, 77, 77, 1);
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.tile2 p:nth-child(1) {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: rgba(77, 77, 77, 1);
+}
+.tile2 p:nth-child(2) {
+  height: 38px;
+  width: 212px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 28px;
+  color: rgba(26, 24, 30, 1);
+  margin-left: 20px;
+  margin-top: -2px;
+}
+
+.tile1 p:nth-child(2) {
+  height: 38px;
+  width: 212px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 28px;
+  color: rgba(26, 24, 30, 1);
+  margin-left: 20px;
+  text-align: left;
+  margin-top: -2px;
+}

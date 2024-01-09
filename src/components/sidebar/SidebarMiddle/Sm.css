@@ -1,0 +1,12 @@
+.sidebarMiddle {
+  margin: 8px;
+  width: 208px;
+  height: 1332px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.sidebarMiddle p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Inter "sans-serif";
+}

@@ -1,0 +1,45 @@
+.navbarRight {
+  display: flex;
+  width: 360px;
+  height: 40px;
+}
+
+.dropIcon {
+  width: 20px;
+  height: 12.73px;
+  position: relative;
+}
+.dropIconDiv {
+  position: relative;
+  margin-left: 50px;
+  margin-top: 7px;
+  /* z-index: 2; */
+}
+.dropIconDiv::before {
+  position: absolute;
+  content: "";
+  height: 50px;
+  width: 50px;
+  background: rgba(242, 242, 242, 1);
+  border-radius: 50%;
+  margin: -15px 0 0 -15px;
+}
+
+.annIcon {
+  height: 20px;
+  width: 20px;
+}
+.annIconDiv {
+  margin-left: 250px;
+  margin-top: 2px;
+}
+/* .annIconDiv::before {
+  position: absolute;
+  content: "";
+  height: 50px;
+  width: 50px;
+  background: rgba(242, 242, 242, 1);
+  border-radius: 50%;
+} */
+
+/* background: rgba(242, 242, 242, 1); */

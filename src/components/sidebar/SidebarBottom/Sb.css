@@ -1,0 +1,50 @@
+.sidebarBottom {
+  height: 44px;
+  width: 172px;
+  margin: 10px;
+  border-radius: 4px;
+  padding: 6px 12px 6px 12px;
+  background-color: rgba(53, 60, 83, 1);
+  display: flex;
+  align-items: center;
+}
+
+.sidebarBottom p:nth-child(1) {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.sidebarBottom p:nth-child(2) {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.walletImg {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.sidebarBottom::after {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  margin: 0 0 0 -8px;
+}
+
+.walletDetails {
+  width: 101px;
+  height: 42px;
+  line-height: 7px;
+  margin-top: -1.4vh;
+  margin-left: 15px;
+}

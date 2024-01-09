@@ -1,0 +1,16 @@
+.mainDboard {
+  width: 1152px;
+  height: 1354px;
+  margin: 32px;
+  background-color: #fff;
+}
+
+.titleTrax {
+  font-family: "Inter";
+  height: 28px;
+  width: 249px;
+  line-height: 28px;
+  color: rgba(26, 24, 30, 1);
+  font-weight: 600;
+  margin-left: -20px;
+}

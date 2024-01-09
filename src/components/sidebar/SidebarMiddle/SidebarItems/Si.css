@@ -1,0 +1,19 @@
+.sidebarItems {
+  display: flex;
+  height: 20px;
+  width: 208px;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  margin: 6px;
+  align-items: center;
+}
+
+.sidebarItems img {
+  width: 18.66px;
+  height: 18.66px;
+  margin-left: -0.5vw;
+}
+
+.sidebarItems p {
+  margin-left: 0.5vw;
+}
